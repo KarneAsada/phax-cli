@@ -1,0 +1,32 @@
+{
+  "name": "phax-cli",
+  "version": "1.0.0",
+  "description": "Send a fax via the command line with Phax.io",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "phax": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KarneAsada/phax-cli.git"
+  },
+  "keywords": [
+    "fax",
+    "cli",
+    "phax.io"
+  ],
+  "author": "KarneAsada",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/KarneAsada/phax-cli/issues"
+  },
+  "homepage": "https://github.com/KarneAsada/phax-cli",
+  "dependencies": {
+    "cli-color": "^0.3.2",
+    "dotenv": "^0.4.0",
+    "inquirer": "^0.8.0"
+  }
+}
